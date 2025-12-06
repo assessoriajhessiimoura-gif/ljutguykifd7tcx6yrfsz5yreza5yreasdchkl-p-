@@ -3,6 +3,7 @@ export default function Maintenance() {
     <section className="py-20 bg-gradient-to-b from-[#E8DDD4] to-[#F5F3F0]">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
+
           <div className="text-center mb-16 space-y-4">
             <h2 className="text-4xl lg:text-5xl font-light text-[#8B7355] tracking-wide">
               Manutenções
@@ -11,6 +12,7 @@ export default function Maintenance() {
           </div>
 
           <div className="flex flex-col lg:flex-row items-center gap-12">
+
             <div className="lg:w-1/2 flex justify-center">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#C9B5A0] to-[#D4AF87] rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
@@ -29,53 +31,23 @@ export default function Maintenance() {
               </p>
 
               <div className="space-y-6">
-                {/* Se tiver mais conteúdo aqui, pode me enviar que ajusto também */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-                <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-l-4 border-[#D4AF87]">
-                  <h3 className="text-2xl font-light text-[#8B7355] mb-3">
-                    Manutenções dos Volumes
-                  </h3>
-                  <p className="text-3xl font-light text-[#2D5A3D]">
-                    R$ 130,00
-                  </p>
-                  <p className="text-sm text-[#6B5D52] mt-2 font-light">
-                    Para Volume Brasileiro, Fox e Europeu
-                  </p>
-                </div>
-
                 <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-l-4 border-[#D4AF87]">
                   <h3 className="text-2xl font-light text-[#8B7355] mb-3">
                     Manutenção Mega Volume
                   </h3>
-                  <p className="text-3xl font-light text-[#2D5A3D]">
-                    R$ 180,00
-                  </p>
-                  <p className="text-sm text-[#6B5D52] mt-2 font-light">
-                    Manutenção especializada para Mega Volume
+                  <p className="text-[#6B5D52] leading-relaxed">
+                    Para cílios volumosos e cheios, mantendo sempre o efeito desejado.
                   </p>
                 </div>
               </div>
 
-              <div className="pt-4">
-                <a
-                  href="#agendar"
-                  className="inline-block bg-[#2D5A3D] text-white px-8 py-4 rounded-full font-light tracking-wide hover:bg-[#3A7250] transform hover:scale-105 hover:shadow-lg transition-all duration-300"
-                >
-                  Agendar manutenção
-                </a>
-              </div>
             </div>
+
           </div>
+
         </div>
       </div>
     </section>
   );
 }
+
