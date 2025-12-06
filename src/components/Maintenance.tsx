@@ -15,10 +15,11 @@ export default function Maintenance() {
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#C9B5A0] to-[#D4AF87] rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
                 <img
-                  src="whatsapp_image_2025-09-13_at_18.55.54_(1).jpeg"
-                  alt="Manutenção de Cílios"
-                  className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-square hover:scale-[1.02] transition-transform duration-500"
-                />
+  src="/images/whatsapp_image_2025-09-13_at_18.55.54_(1).jpeg"
+  alt="Manutenção de Cílios"
+  className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-square hover:scale-[1.02] transition-transform duration-500"
+/>
+
               </div>
             </div>
 
