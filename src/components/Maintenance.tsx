@@ -38,7 +38,7 @@ export default function Maintenance() {
                     Manutenção Mega Volume
                   </h3>
                   <p className="text-[#6B5D52] leading-relaxed">
-                    Para cílios volumosos e cheios, mantendo sempre o efeito desejado.
+                    R$220,00
                   </p>
                 </div>
               </div>
