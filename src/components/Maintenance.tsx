@@ -1,3 +1,5 @@
+import manutencao from "../assets/manutencao.jpeg";
+
 export default function Maintenance() {
   return (
     <section className="py-20 bg-gradient-to-b from-[#E8DDD4] to-[#F5F3F0]">
@@ -18,7 +20,7 @@ export default function Maintenance() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#C9B5A0] to-[#D4AF87] rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
 
                 <img
-                  src="/images/whatsapp_image_2025-09-13_at_18.55.54_(1).jpeg"
+                  src={manutencao}
                   alt="Manutenção de Cílios"
                   className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-square hover:scale-[1.02] transition-transform duration-500"
                 />
@@ -50,4 +52,3 @@ export default function Maintenance() {
     </section>
   );
 }
-
