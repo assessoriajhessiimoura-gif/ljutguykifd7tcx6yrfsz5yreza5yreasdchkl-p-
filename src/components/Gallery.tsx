@@ -39,7 +39,6 @@ const procedures: Procedure[] = [
   },
 ];
 
-
 export default function Gallery() {
   const [activeCard, setActiveCard] = useState<number | null>(null);
 
