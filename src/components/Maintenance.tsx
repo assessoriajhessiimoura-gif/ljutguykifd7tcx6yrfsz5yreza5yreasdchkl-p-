@@ -14,12 +14,12 @@ export default function Maintenance() {
             <div className="lg:w-1/2 flex justify-center">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#C9B5A0] to-[#D4AF87] rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
-                <img
-  src="/images/whatsapp_image_2025-09-13_at_18.55.54_(1).jpeg"
-  alt="Manutenção de Cílios"
-  className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-square hover:scale-[1.02] transition-transform duration-500"
-/>
 
+                <img
+                  src="/images/whatsapp_image_2025-09-13_at_18.55.54_(1).jpeg"
+                  alt="Manutenção de Cílios"
+                  className="relative rounded-2xl shadow-2xl w-full max-w-md object-cover aspect-square hover:scale-[1.02] transition-transform duration-500"
+                />
               </div>
             </div>
 
@@ -29,6 +29,16 @@ export default function Maintenance() {
               </p>
 
               <div className="space-y-6">
+                {/* Se tiver mais conteúdo aqui, pode me enviar que ajusto também */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
                 <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-l-4 border-[#D4AF87]">
                   <h3 className="text-2xl font-light text-[#8B7355] mb-3">
                     Manutenções dos Volumes
