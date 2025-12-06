@@ -29,7 +29,7 @@ const procedures: Procedure[] = [
   },
   {
     name: 'Mega Volume',
-    image: '/images/whatsapp_image_2025-11-29_at_20.21.38_(2).jpeg',
+    image: 'whatsapp_image_2025-11-29_at_20.21.39_(1).jpeg',
     price: 'R$ 220,00',
   },
   {
