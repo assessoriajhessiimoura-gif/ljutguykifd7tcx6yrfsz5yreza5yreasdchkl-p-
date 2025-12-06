@@ -9,7 +9,7 @@ interface Procedure {
 const procedures: Procedure[] = [
   {
     name: 'Volume Brasileiro',
-    image: '/images/whatsapp_image_2025-11-29_at_20.21.39.jpeg',
+    image: 'whatsapp_image_2025-11-29_at_20.21.37.jpeg',
     price: 'R$ 165,00',
   },
   {
