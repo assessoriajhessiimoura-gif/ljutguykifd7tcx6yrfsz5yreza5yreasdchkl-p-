@@ -15,6 +15,7 @@ export default function Maintenance() {
 
           <div className="flex flex-col lg:flex-row items-center gap-12">
 
+            {/* FOTO */}
             <div className="lg:w-1/2 flex justify-center">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#C9B5A0] to-[#D4AF87] rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
@@ -27,22 +28,35 @@ export default function Maintenance() {
               </div>
             </div>
 
-            <div className="lg:w-1/2 space-y-8">
+            {/* TEXTOS E VALORES */}
+            <div className="lg:w-1/2 space-y-10">
               <p className="text-lg text-[#6B5D52] font-light leading-relaxed">
-                Mantenha seus cílios sempre impecáveis com nossas manutenções especializadas
+                Mantenha seus cílios sempre impecáveis com nossas manutenções especializadas.
               </p>
 
               <div className="space-y-6">
-                <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border-l-4 border-[#D4AF87]">
+
+                {/* CARD 1 */}
+                <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border border-[#D4AF87]/50">
+                  <h3 className="text-2xl font-light text-[#8B7355] mb-3">
+                    Manutenção dos Volumes
+                  </h3>
+                  <p className="text-[#6B5D52] font-medium text-xl">
+                    R$ 130,00
+                  </p>
+                </div>
+
+                {/* CARD 2 */}
+                <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300 border border-[#D4AF87]/50">
                   <h3 className="text-2xl font-light text-[#8B7355] mb-3">
                     Manutenção Mega Volume
                   </h3>
-                  <p className="text-[#6B5D52] leading-relaxed">
-                    R$220,00
+                  <p className="text-[#6B5D52] font-medium text-xl">
+                    R$ 180,00
                   </p>
                 </div>
-              </div>
 
+              </div>
             </div>
 
           </div>
